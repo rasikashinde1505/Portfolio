@@ -1,0 +1,82 @@
+.my-image1 img {
+  width: 90%;
+  position: absolute;
+  padding-top: 50px;
+  left: 0%;
+}
+
+.my-image2 img {
+  width: 30%;
+  padding-top: 29%;
+  left: 60%;
+  position: absolute;
+}
+
+.my-image3 img {
+  width: 22%;
+  position: absolute;
+  padding-top: 22%;
+  right: 0%;
+}
+
+.my-image4 img {
+  width: 18%;
+  position: absolute;
+  padding-top: 5%;
+  left: 64%;
+}
+.my-image5 img {
+  width: 18%;
+  position: absolute;
+  right: 0%;
+}
+
+.underline-magical {
+  background-image: linear-gradient(
+    113.1deg,
+    rgba(255, 198, 152, 0.5) 14%,
+    rgba(197, 75, 253, 0.5) 80.5%,
+    rgba(191, 53, 255, 0.5) 100.6%
+  );
+  background-repeat: no-repeat;
+  background-size: 100% 0.2em;
+  background-position: 0 88%;
+  padding: 7px 0px;
+  transition: background-size 0.25s cubic-bezier(0.475, 0.425, 0, 0.995);
+}
+.underline-magical:hover {
+  background-size: 100% 88%;
+}
+
+@media (max-width: 2400px) {
+  .about-mystory {
+    margin-top: 1000px;
+    color: black;
+    font-size: 2vw;
+    font-family: "Circular Book", sans-serif;
+  }
+  .about-mystory .para {
+    line-height: 30px;
+  }
+  .about-mystory .title-text {
+    color: black;
+    font-size: 3vw;
+    font-family: "Circular Book", sans-serif;
+  }
+}
+@media (max-width: 1300px) {
+  .about-mystory {
+    margin-top: 650px;
+    color: black;
+    font-size: 2vw;
+    font-family: "Circular Book", sans-serif;
+  }
+  .about-mystory .para {
+    line-height: 30px;
+  }
+}
+.about-mystory .title-text {
+  color: black;
+  font-size: 3vw;
+  font-family: "Circular Book", sans-serif;
+}

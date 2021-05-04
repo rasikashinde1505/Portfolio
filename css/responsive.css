@@ -1,0 +1,146 @@
+/* if the viewport is equal to 340px or less than that
+@media only screen and (max-width: 340px) {
+.header_area .main-menu .navbar,
+.header_area .main-menu .navbar .navbar-brand,
+.site-main .subscribe-us-area .subscribe .subscribe-title,
+.site-main .subscribe-us-area .subscribe .subscribe-title p,
+h4,
+.site-main .services-area,
+.site-main .subscribe-us-area .subscribe {
+  padding: 2%;
+  margin: 0%;
+}
+
+.site-main .site-banner .site-title h1 {
+  font-size: 41px;
+}
+
+.site-main .subscribe-us-area .subscribe form .input-textbox input {
+  width: 15rem !important;
+}
+
+.site-main > .services-area .services {
+  width: 13rem;
+}
+}
+
+/* if the viewport is equal to 792px or less than that 
+@media only screen and (max-width: 792px) {
+.site-main .brand-area .experience-area .years-area {
+  padding-left: 1%;
+  width: 49%;
+}
+
+.site-main .brand-area .experience-area .bg-panel {
+  margin-left: 30%;
+  width: 80%;
+}
+
+.site-main .brand-area .experience-area .call-area {
+  padding-left: 3%;
+}
+
+.site-main .about-area .about-title p {
+  padding: 0%;
+}
+
+.site-main .subscribe-us-area .subscribe form .input-textbox input {
+  width: 20rem;
+  margin: 5%;
+}
+.site-main .about-area .about-title h2 > span {
+  font-size: 50px;
+  letter-spacing: 10px;
+}
+}
+
+/* if the viewport is equal to 1250px or less than that
+@media only screen and (max-width: 1250px) {
+.header_area .main-menu .navbar {
+  padding: 1rem;
+}
+
+.site-main .brand-area,
+.site-main .services-area .services-title,
+.site-main .about-area {
+  padding: 3% 4%;
+}
+
+.site-main .about-area .about-title h2 > span {
+  font-size: 50px;
+  letter-spacing: 10px;
+}
+.mystory-img {
+  margin-left: -20%;
+}
+}
+
+/* if the viewport is equal to 1910px or less than that
+@media (min-width: 1500px) and (max-width: 1880px) {
+.header_area .main-menu .navbar {
+  padding: 1rem;
+}
+
+.site-main .brand-area,
+.site-main .services-area .services-title,
+.site-main .about-area {
+  padding: 3% 4%;
+}
+
+.site-main .about-area .about-title h2 > span {
+  font-size: 31px;
+  letter-spacing: 10px;
+}
+.mystory-img {
+  margin-left: 30%;
+}
+} */
+
+@media (max-width: 2220px) {
+  .site-main {
+    width: 76%;
+    margin: 0% 10%;
+  }
+
+  .header_area .main-menu .navbar {
+    margin-left: 25%;
+  }
+
+  .mystory-img {
+    margin-left: 10%;
+  }
+}
+.site-main .about-area .about-title .paragraph > p {
+  font-size: 1.1vw;
+  line-height: 30px;
+}
+@media (max-width: 1880px) {
+  .site-main .about-area .about-title .paragraph > p {
+    font-size: 1.3vw;
+    line-height: 30px;
+  }
+}
+@media (max-width: 1350px) {
+  .site-main {
+    width: 76%;
+    margin: 0% 10%;
+  }
+  .header_area .main-menu .navbar {
+    margin-left: 5%;
+  }
+
+  .mystory-img {
+    margin-left: -45%;
+  }
+  .para-mystory {
+    width: 80%;
+  }
+
+  .site-main .about-area .about-title h2 > span {
+    font-size: 30px;
+    letter-spacing: 15px;
+  }
+  .site-main .about-area .about-title .paragraph > p {
+    width: 150%;
+  }
+}
